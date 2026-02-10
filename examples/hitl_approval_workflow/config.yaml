@@ -1,0 +1,54 @@
+# HITL Approval Workflow Configuration
+
+hitl:
+  timeout_minutes: 5
+  escalation_enabled: true
+  input_types:
+    - free_text
+    - structured_fields
+    - selection_list
+    - approval_gate
+    - rich_content
+
+email:
+  from_address: "support@company.com"
+  reply_to: "support@company.com"
+  
+escalation:
+  email: "manager@company.com"
+  slack_webhook: null  # Set to Slack webhook URL if using Slack
+  
+notifications:
+  on_timeout: true
+  on_escalation: true
+  on_rejection: true
+
+# Input field definitions for structured input
+input_fields:
+  priority:
+    type: select
+    options: ["low", "medium", "high", "urgent"]
+    required: true
+  
+  category:
+    type: select
+    options: ["technical", "billing", "general", "complaint"]
+    required: true
+  
+  notes:
+    type: text
+    max_length: 500
+    required: false
+
+# Approval options
+approval_options:
+  - approve
+  - reject
+  - modify
+  - request_more_info
+
+# Timeout behavior
+timeout_behavior:
+  action: escalate
+  notify_customer: false
+  preserve_draft: true
