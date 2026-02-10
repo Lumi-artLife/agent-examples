@@ -44,13 +44,21 @@ Autonomous research agent demonstrating the Think → Act → Evaluate → Repea
 
 **Files**: [`examples/multi_turn_research_loop/`](examples/multi_turn_research_loop/)
 
-### 3. Multi-Node Pipeline (Coming Soon)
+### 3. Context Handoff ✅
 
-Context handoff across 3+ nodes with state passing.
+Multi-stage pipeline demonstrating structured context passing between nodes.
 
-**Scenario**: Data collection → Analysis → Report generation
+**Scenario**: Data collection → Validation → Analysis → Report generation
 
-**Challenge**: How context flows between stages without breaking
+**Features**:
+- Structured context object that flows through stages
+- Each stage adds its output while preserving history
+- Validation and error handling at each step
+- Complete audit trail of execution
+
+**Pattern**: Context passing with structured handoff
+
+**Files**: [`examples/context_handoff/`](examples/context_handoff/)
 
 ### 4. Goal-Driven Agent (Coming Soon)
 
