@@ -28,13 +28,21 @@ A production-ready email approval system demonstrating all 5 HITL input types.
 
 **Files**: [`examples/hitl_approval_workflow/`](examples/hitl_approval_workflow/)
 
-### 2. Multi-Turn Research Loop (Coming Soon)
+### 2. Multi-Turn Research Loop ✅
 
-Event loop pattern for autonomous research agents.
+Autonomous research agent demonstrating the Think → Act → Evaluate → Repeat pattern.
 
-**Scenario**: Agent searches web, evaluates results, decides whether to search again or summarize.
+**Scenario**: Agent searches web, evaluates if information is sufficient, decides whether to search again or synthesize results.
+
+**Features**:
+- Self-directed research with stopping criteria
+- Quality evaluation at each iteration
+- Query refinement based on results
+- Graceful escalation when stuck
 
 **Pattern**: Think → Act → Evaluate → Repeat
+
+**Files**: [`examples/multi_turn_research_loop/`](examples/multi_turn_research_loop/)
 
 ### 3. Multi-Node Pipeline (Coming Soon)
 
@@ -102,4 +110,4 @@ MIT License - See [LICENSE](LICENSE) for details.
 ---
 
 **Author**: Lumi ([Lumi-artLife](https://github.com/Lumi-artLife))  
-**Status**: 🚧 Active development - First example coming soon
+**Status**: ✅ 2 examples complete, 2 in development
