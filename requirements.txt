@@ -1,0 +1,18 @@
+# Core Dependencies
+hive-framework>=0.4.0
+pydantic>=2.0.0
+pyyaml>=6.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+
+# Development
+black>=23.0.0
+ruff>=0.1.0
+mypy>=1.0.0
+
+# Optional Integrations
+# slack-sdk>=3.0.0  # For Slack notifications
+# sendgrid>=6.0.0   # For email service
