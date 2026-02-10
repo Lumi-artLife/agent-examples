@@ -60,11 +60,21 @@ Multi-stage pipeline demonstrating structured context passing between nodes.
 
 **Files**: [`examples/context_handoff/`](examples/context_handoff/)
 
-### 4. Goal-Driven Agent (Coming Soon)
+### 4. Goal-Driven Agent ✅
 
-Weighted success criteria and constraint handling.
+Agent with declarative goals, weighted success criteria, and constraint handling.
 
-**Scenario**: Agent with declarative goals containing multiple success criteria and hard constraints.
+**Scenario**: Optimize for multiple objectives (response time, cost, quality) while respecting boundaries (budget limits).
+
+**Features**:
+- Weighted success criteria with priorities
+- Hard and soft constraints
+- Automatic progress tracking
+- Action selection based on goal alignment
+
+**Pattern**: Declarative goals + weighted optimization + constraint satisfaction
+
+**Files**: [`examples/goal_driven_agent/`](examples/goal_driven_agent/)
 
 ## 🚀 Quick Start
 
