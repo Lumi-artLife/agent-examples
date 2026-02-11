@@ -25,6 +25,16 @@ These patterns have been validated in:
 - ✅ Research automation (multi-turn reasoning with quality gates)
 - ✅ Workflow orchestration (cross-agent coordination)
 
+## 💬 What People Are Saying
+
+> "丁寧なる技術解説と補足リソースの共有、かたじけない。"  
+> *(Thank you for the detailed technical explanation and supplementary resources.)*  
+> — **yohey-w**, [multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun) maintainer (806⭐)
+
+*Your feedback helps improve these examples! [Share your experience](mailto:lokiblanka99@gmail.com)*
+
+---
+
 ## 📁 Examples
 
 ### 1. HITL Approval Workflow
@@ -166,7 +176,15 @@ MIT License - See [LICENSE](LICENSE) for details.
 ---
 
 **Status**: ✅ 4 production-ready examples (2,800+ lines)  
-**Last Updated**: February 10, 2026  
+**Last Updated**: February 10, 2026  、
 **License**: MIT  
 
-*If these examples help your project, consider starring ⭐ the repo!*
+---
+
+## ⭐ Star This Repo If...
+
+- ✅ You're building production agent systems
+- ✅ These patterns saved you development time  
+- ✅ You want to see more examples added
+
+**Your star helps others discover these patterns!**
